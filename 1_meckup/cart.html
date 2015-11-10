@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="keywords" content="интернет магазин">
+    <link href="css/style.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <script src="script/jquery.js"></script>
+    <script src="script/script.js"></script>
+    <title>Главная страница</title>
+</head>
+<body>
+<div id="container">
+
+    <!--Начало headera-->
+
+    <!--Начало headerOne-->
+    <div id="headerOne">
+        <div id="iHeaderOne">
+            <ul id="nav">
+                <li><a href="#">Как купить</a></li>
+                <li><a href="#">Доставка оплата</a></li>
+                <li><a href="#">Гарантия</a></li>
+                <li><a href="#">О нас</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+            <p class="telPhoto"></p>
+            <p class="tel">+38 (093) 189 40 20</p>
+        </div>
+    </div>
+    <!--Начало headerTwo-->
+    <div id="headerTwo">
+        <div id="iHeaderTwo">
+            <div class="logo"></div>
+            <div class="search">
+                <form name="search" action="#" method="get">
+                    <input type="search" name="q" value="Поиск">
+                    <input type="submit" value="">
+                </form>
+            </div>
+            <div class="cart"></div>
+            <div class="target"><span class="greenBold">3</span> ТОВАРОВ</div>
+        </div>
+    </div>
+    <!--Начало headerThree-->
+    <div id="headerThree">
+        <div id="iHeaderTree">
+            <div id="topMenu">
+                <ul>
+                    <li><a href="#">Ноутбуки </a></li>
+                    <li><img src="images/separator.png"></li>
+                    <li><a href="#">Планшеты</a></li>
+                    <li><img src="images/separator.png"></li>
+                    <li><a href="#">Компьтеры</a></li>
+                    <li><img src="images/separator.png"></li>
+                    <li><a href="#">Накопители</a></li>
+                    <li><img src="images/separator.png"></li>
+                    <li><a href="#">Комплектующие</a></li>
+                    <li><img src="images/separator.png"></li>
+                    <li><a href="#">Стетевое оборудование</a></li>
+                    <li><img src="images/separator.png"></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!--Начало Контента-->
+    <div id="content">
+        <div id="iContent">
+            <!--Хлебные крошки-->
+            <div class="row">
+                <table class="crumbsNav">
+                    <tr>
+                        <td><a href="#">Главная</a></td>
+                        <td><img src="images/arrow.png"></td>
+
+                        <td><a href="#">Компьютеры</a></td>
+                        <td><img src="images/arrow.png"></td>
+                        <td>Корзина</td>
+                    </tr>
+                </table>
+            </div>
+            <!--Корзина заказа-->
+            <div class="row">
+                <h1 class="title">Корзина</h1>
+            </div>
+            <div class="row">
+                <div class="productCart span5">
+                    <ul>
+                        <li><img src="images/1Small.png"></li>
+                        <li>
+                            <div class="titleCart">Персональный компьютер Asus BM6820-0G20200970Персональный компьютер Asus BM6820-0G20200970</div>
+                            <p><span class="littleFont">Артикул:</span> 00123</p>
+                            <p class="saleCart">Скидка 14%</p>
+                            <p class="costCart">13124214<span class="littleFont"> &nbsp;&nbsp;грн</span> </p>
+                        </li>
+                        <li><input type="text" name="count" value="1">шт</li>
+                        <li><p class="sum">13124214<span class="littleFontCart"> &nbsp;&nbsp;грн</span></p></li>
+                        <li><a href="#" class="delete">X</a></li>
+                    </ul>
+                </div>
+                <div class="productCart span5">
+                    <ul>
+                        <li><img src="images/1Small.png"></li>
+                        <li>
+                            <div class="titleCart">Персональный компьютер Asus BM6820-0G20200970Персональный компьютер Asus BM6820-0G20200970Персональный компьютер Asus BM6820-0G20200970</div>
+                            <p><span class="littleFont">Артикул:</span> 00123</p>
+                            <p class="saleCart">Скидка 14%</p>
+                            <p class="costCart">13124214<span class="littleFont"> &nbsp;&nbsp;грн</span> </p>
+                        </li>
+                        <li><input type="text" name="count" value="1">шт</li>
+                        <li><p class="sum">13124214<span class="littleFontCart"> &nbsp;&nbsp;грн</span></p></li>
+                        <li><a href="#" class="delete">X</a></li>
+                    </ul>
+                </div>
+                <div class="productCart span5">
+                    <ul>
+                        <li><img src="images/1Small.png"></li>
+                        <li>
+                            <div class="titleCart">Персональный компьютер Asus BM6820-0G20200970Персональный компьютер Asus BM6820-0G20200970</div>
+                            <p><span class="littleFont">Артикул:</span> 00123</p>
+                            <p class="saleCart">Скидка 14%</p>
+                            <p class="costCart">13124214<span class="littleFont"> &nbsp;&nbsp;грн</span> </p>
+                        </li>
+                        <li><input type="text" name="count" value="1">шт</li>
+                        <li><p class="sum">13124214<span class="littleFontCart"> &nbsp;&nbsp;грн</span></p></li>
+                        <li><a href="#" class="delete">X</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!--кнопка пересчитать-->
+            <div class="row">
+                <div class="finally span5">
+                        <a class="reCalc" href="#" ></a>
+                </div>
+            </div>
+            <!--кнопка получить скидку-->
+            <div class="row">
+                <div class="bonus finally span5">
+                    <ul>
+                        <li><p class="amount"><span class="littleFont">Введите номер купона со скидкой:</span> </p></li>
+                        <li><input type="text" name="bonus" value="">шт</li>
+                        <li><a class="getDisc" href="#" ></a></li>
+                    </ul>
+                </div>
+            </div>
+            <!--кнопка оформить заказ-->
+            <div class="row">
+                <div class="finally span5">
+                    <ul>
+                        <li><p class="amount"><span class="littleFont">Всего:</span>  1093 грн</p></li>
+                        <li><a class="issue" href="#" ></a></li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Начало Футер-->
+    <div id="footer">
+        <div class="line"></div>
+        <div id="iFooter">
+            <div class="row">
+                <div class="contacts span1">
+                    <h2>Наши контакты</h2>
+                    <p class="marg"></p>
+                    <p><span class="littleFont"> тел &nbsp;</span>(048)360 33 46</p>
+                    <p><span class="littleFont"> тел &nbsp;</span>(093)189 40 20</p>
+                    <p class="marg"></p>
+                    <p>г.Одессa</p>
+                    <p>ул. Сегедская , 9 ,1 этаж</p>
+                </div>
+                <div class="schedule span1">
+                    <h2>График работы</h2>
+                    <p class="marg"></p>
+                    <h3>Пн - Пт :</h3><p>10.00 - 19.00</p>
+                    <p class="marg"></p>
+                    <h3>Cб - Вс :</h3><p>10.00 - 16.00</p>
+                </div>
+                <div class="representation span1">
+                    <h2>Представительства</h2>
+                    <p class="marg"></p>
+                    <a href="#"><p class="vk"></p></a>
+                    <a href="#"><p class="facebook"></p></a>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+</div>
+
+</body>
+</html>

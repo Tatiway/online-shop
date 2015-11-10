@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="keywords" content="интернет магазин">
+    <link href="css/style.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <script src="script/jquery.js"></script>
+    <script src="script/script.js"></script>
+    <title>Главная страница</title>
+</head>
+<body>
+<div id="container">
+
+    <!--Начало headera-->
+
+    <!--Начало headerOne-->
+    <div id="headerOne">
+        <div id="iHeaderOne">
+            <ul id="nav">
+                <li><a href="#">Как купить</a></li>
+                <li><a href="#">Доставка оплата</a></li>
+                <li><a href="#">Гарантия</a></li>
+                <li><a href="#">О нас</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+            <p class="telPhoto"></p>
+            <p class="tel">+38 (093) 189 40 20</p>
+        </div>
+    </div>
+    <!--Начало headerTwo-->
+    <div id="headerTwo">
+        <div id="iHeaderTwo">
+            <div class="logo"></div>
+            <div class="search">
+                <form name="search" action="#" method="get">
+                    <input type="search" name="q" value="Поиск">
+                    <input type="submit" value="">
+                </form>
+            </div>
+            <div class="cart"></div>
+            <div class="target"><span class="greenBold">3</span> ТОВАРОВ</div>
+        </div>
+    </div>
+    <!--Начало headerThree-->
+    <div id="headerThree">
+        <div id="iHeaderTree">
+            <div id="topMenu">
+                <ul>
+                    <li><a href="#">Ноутбуки </a></li>
+                    <li><img src="images/separator.png"></li>
+                    <li><a href="#">Планшеты</a></li>
+                    <li><img src="images/separator.png"></li>
+                    <li><a href="#">Компьтеры</a></li>
+                    <li><img src="images/separator.png"></li>
+                    <li><a href="#">Накопители</a></li>
+                    <li><img src="images/separator.png"></li>
+                    <li><a href="#">Комплектующие</a></li>
+                    <li><img src="images/separator.png"></li>
+                    <li><a href="#">Стетевое оборудование</a></li>
+                    <li><img src="images/separator.png"></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!--Начало Контента-->
+    <div id="content">
+        <div id="iContent">
+            <!--Хлебные крошки-->
+            <div class="row">
+                <table class="crumbsNav">
+                    <tr>
+                        <td><a href="#">Главная</a></td>
+                        <td><img src="images/arrow.png"></td>
+
+                        <td><a href="#">Компьютеры</a></td>
+                        <td><img src="images/arrow.png"></td>
+                        <td>Оформление заказа</td>
+                    </tr>
+                </table>
+            </div>
+            <!--Форма заказа-->
+            <div class="row">
+                <h1 class="title">Форма заказа</h1>
+            </div>
+            <div class="row">
+                <div class="orderForms span5" method="post">
+                    <form title="order" action="">
+                        <input type="text" value="Фамилия и Имя" name="name"><br>
+                        <input type="text" value="Телефон" name="phone"><br>
+                        <input type="text" value="E-mail" name="email"><br>
+                        <select name="delivery"class="deliveryChoice">
+                            <option  selected>-- Выберите способ доставки --</option>
+                            <option value="1">Курьерской службой Новая почта</option>
+                            <option value="2">Самовывоз</option>
+                        </select><br>
+                        <div class="selectDelivery">
+                            <h3>Тип доставки Новой почты</h3>
+                            <input type="radio" name="delivery" value="office">На отделение Новой Почты<br>
+                            <input type="radio" name="delivery" value="address">Курьером Новой Почты по адресу<br>
+                        </div>
+                        <div class="office">
+                            <input type="text" value="Город" name="city"><br>
+                            <select name="delivery">
+                                <option  selected>-- Выберите отделение Новой Почты --</option>
+                                <option value="1">Отделение 1</option>
+                                <option value="2">Отделение 2</option>
+                            </select><br>
+                        </div>
+                       <div class="address">
+                           <input type="text" value="Город" name="city"><br>
+                           <input type="text" value="Адрес" name="street"><br>
+                       </div>
+                        <a class="noteHide" href="#"> Примечание к заказу</a>
+                        <a class="noteHide" style="display: none" href="#"> Скрыть примечание </a>
+                        <textarea name="note"> </textarea><br>
+                        <a class="confirm" href="#"></a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Начало Футер-->
+<div id="footer">
+    <div class="line"></div>
+    <div id="iFooter">
+        <div class="row">
+            <div class="contacts span1">
+                <h2>Наши контакты</h2>
+                <p class="marg"></p>
+                <p><span class="littleFont"> тел &nbsp;</span>(048)360 33 46</p>
+                <p><span class="littleFont"> тел &nbsp;</span>(093)189 40 20</p>
+                <p class="marg"></p>
+                <p>г.Одессa</p>
+                <p>ул. Сегедская , 9 ,1 этаж</p>
+            </div>
+            <div class="schedule span1">
+                <h2>График работы</h2>
+                <p class="marg"></p>
+                <h3>Пн - Пт :</h3><p>10.00 - 19.00</p>
+                <p class="marg"></p>
+                <h3>Cб - Вс :</h3><p>10.00 - 16.00</p>
+            </div>
+            <div class="representation span1">
+                <h2>Представительства</h2>
+                <p class="marg"></p>
+                <a href="#"><p class="vk"></p></a>
+                <a href="#"><p class="facebook"></p></a>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+
+</div>
+
+</body>
+</html>
